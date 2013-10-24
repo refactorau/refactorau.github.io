@@ -1,0 +1,65 @@
+.footer {
+    font-weight: bold;
+}
+
+.section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.contact-details {
+    vertical-align: middle;
+}
+
+.contact-email {
+    margin-top:15px;
+}
+
+.contact-address {
+    margin-top:5px;
+}
+
+.contact-telephone {
+    margin-top:15px;
+}
+
+.sprite {
+    width: 54px;
+    height: 54px;
+    background: url(../images/sprites.png) -751px -76px no-repeat;
+}
+
+.sprite-twitter{background: url(../images/sprites.png) -1238px -565px;}
+.sprite-linkedin{background: url(../images/sprites.png) -860px -348px;}
+.sprite-blog{background: url(../images/sprites.png) -860px -78px;}
+.sprite-email{background: url(../images/sprites.png) -1184px -725px;}
+.sprite-telephone{background: url(../images/sprites.png) -1135px -725px;}
+.sprite-mail{background: url(../images/sprites.png) -750px -725px;}
+
+.spacer-ten {
+    margin: 10px 0 0 0;
+}
+
+.profile-name {
+    font-size: 16pt;
+    margin:10px;
+}
+
+.profile-pic {
+    border: 7px;
+    border-style: solid;
+    margin: 5px;
+}
+
+.profile-links {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.centered {
+    text-align: center;
+}
