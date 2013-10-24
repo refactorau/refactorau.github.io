@@ -30,15 +30,15 @@
 .sprite {
     width: 54px;
     height: 54px;
-    background: url(../images/sprites.png) -751px -76px no-repeat;
+    background: url(../images/sprites.png) 0px 0px no-repeat;
 }
 
-.sprite-twitter{background: url(../images/sprites.png) -1238px -565px;}
-.sprite-linkedin{background: url(../images/sprites.png) -860px -348px;}
-.sprite-blog{background: url(../images/sprites.png) -860px -78px;}
-.sprite-email{background: url(../images/sprites.png) -1184px -725px;}
-.sprite-telephone{background: url(../images/sprites.png) -1135px -725px;}
-.sprite-mail{background: url(../images/sprites.png) -750px -725px;}
+.sprite-twitter{background: url(../images/sprites.png) -542px -540px;}
+.sprite-linkedin{background: url(../images/sprites.png) -165px -325px;}
+.sprite-blog{background: url(../images/sprites.png) -165px -55px;}
+.sprite-email{background: url(../images/sprites.png) -489px -702px;}
+.sprite-telephone{background: url(../images/sprites.png) -434px -702px;}
+.sprite-mail{background: url(../images/sprites.png) -55px -702px;}
 
 .spacer-ten {
     margin: 10px 0 0 0;
