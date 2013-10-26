@@ -63,3 +63,7 @@
 .centered {
     text-align: center;
 }
+
+#refactor-logo {
+    max-width: 100%;
+}
