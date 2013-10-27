@@ -36,24 +36,30 @@
     margin: 10px 0 0 0;
 }
 
-.profile-name {
+.profile .name {
     font-size: 16pt;
     margin:10px;
 }
 
-.profile-pic {
-    border: 7px;
+.profile .pic {
+    border: 5px;
+    border-color: #005b97;
+    border-radius: 7px;
     border-style: solid;
     margin: 5px;
 }
 
-.profile-links {
+.profile .links {
     margin-left: -10px;
     margin-right: -10px;
 }
 
 .centered {
     text-align: center;
+}
+
+body {
+    color: #555;
 }
 
 body > header {
@@ -63,6 +69,10 @@ body > header {
 body > header > img.logo {
     max-width: 100%;
     padding: 2em 1em 0em 1em;
+}
+
+h2 {
+    color: #005b97;
 }
 
 .profile {
