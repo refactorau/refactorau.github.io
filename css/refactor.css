@@ -2,15 +2,6 @@
     font-weight: bold;
 }
 
-.section {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.heading {
-    padding: 20px;
-}
-
 .contact-details {
     vertical-align: middle;
 }
@@ -65,10 +56,15 @@
     text-align: center;
 }
 
-#refactor-logo {
-    max-width: 100%;
+body > header {
+    text-align: center;
 }
 
-body {
-    padding-bottom: 3em;
+body > header > img.logo {
+    max-width: 100%;
+    padding: 2em 1em 0em 1em;
+}
+
+.profile {
+    text-align: center;
 }

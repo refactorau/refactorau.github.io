@@ -1,35 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en"> <!--<![endif]-->
-<head>
-    <!-- Basic Page Needs
-  ================================================== -->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en" > 
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" > 
+<!--<![endif]-->
 
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Refactor | Expert software and hardware development on the Gold Coast</title>
     <meta name="author" content="Refactor Pty Ltd">
-    <link rel="icon" type="image/png" href="http://refactor.com.au/favicon.png"/>
     <meta name="description" content="Expert software and hardware development on the Gold Coast">
-    <meta name="author" content="Steve Dalton">
+    <link rel="icon" type="image/png" href="http://refactor.com.au/favicon.png"/>
 
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- CSS
-  ================================================== -->
-    <link rel="stylesheet" href="stylesheets/base.css">
-    <link rel="stylesheet" href="stylesheets/skeleton.css">
-    <link rel="stylesheet" href="stylesheets/layout.css">
-    <link rel="stylesheet" href="stylesheets/refactor.css">
-
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/refactor.css">
+    <script src="js/vendor/custom.modernizr.js"></script>
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,160 +46,169 @@
         })();
 
     </script>
-
 </head>
-
 <body>
-
-<div class="container">
-    <div class="sixteen columns">
-        <h1 class="remove-bottom centered" style="margin-top: 40px"><img id="refactor-logo" src="images/refactor.png"/></h1>
-    </div>
+    <header class="row">
+        <img class="logo" src="images/refactor.png"/>
+    </header>
     <hr/>
+    <section class="row">
+        <article class="introduction small-12 columns">
+            <h2>Welcome to Refactor</h2>
 
-    <div class="sixteen columns">
-        <h2>Welcome to Refactor</h2>
+            <p>We specialise in high quality, high value, Software and Hardware Development.</p>
 
+            <p>
+                We have the experience and expertise to help you eliminate the ‘pain points’ in your business by applying the latest technologies and techniques. We are an established, productive software &amp; hardware development team available for hire.
+            </p>
 
-        <p>We specialise in high quality, high value, Software and Hardware Development.
+            <p>
+                Our actions speak louder than words, so this page is intentionally small. Follow the links to our profiles and projects and contact us via the links at the bottom of this page.
+            </p>
 
-        <p>
+            <p>Our core team currently consists of:</p>
 
-        <p>We have the experience and expertise to help you eliminate the ‘pain points’ in your business by applying the
-            latest technologies and techniques. We are an established, productive software & hardware development team
-            available for hire.
-        </p>
-
-        <p>Our actions speak louder than words, so this page is intentionally small. Follow the links to our profiles
-            and
-            projects and contact us via the links at the bottom of this page.</p>
-
-        <p>Our core team currently consists of:</p>
-
-        <div class="three columns centered alpha">
-            <img class="profile-pic" src="images/profiles/steve.png"/>
-
-            <div class="profile-name">Steve Dalton</div>
-            <div class="profile-links">
-                <a href="http://dalts.net"><img class="sprite sprite-blog" src="images/trans.png"/></a>
-                <a href="http://twitter.com/spidie"><img class="sprite sprite-twitter" src="images/trans.png"/></a>
-                <a href="http://linkedin.com/in/dalton"><img class="sprite sprite-linkedin" src="images/trans.png"/></a>
-            </div>
-        </div>
-        <div class="three columns centered"><img class="profile-pic" src="images/profiles/rob.png"/>
-            <div class="profile-name">Rob Nielsen</div>
-            <div class="profile-links">
-                <a href="http://linkedin.com/in/robnielsenprofile"><img class="sprite sprite-linkedin"
-                                                                        src="images/trans.png"/></a>
-            </div>
-        </div>
-
-        <div class="three columns centered"><img class="profile-pic" src="images/profiles/wes.png"/>
-            <div class="profile-name">Wes Archbell</div>
-            <div class="profile-links">
-                <a href="http://linkedin.com/in/wesleyarchbell"><img class="sprite sprite-linkedin"
-                                                                     src="images/trans.png"/></a>
-            </div>
-        </div>
-        <div class="three columns centered"><img class="profile-pic" src="images/profiles/rod.png"/>
-            <div class="profile-name">Rod Christian</div>
-        </div>
-        <div class="three columns centered omega"><img class="profile-pic" src="images/profiles/craig.png"/>
-            <div class="profile-name">Craig Aspinall</div>
-            <div class="profile-links">
-                <a href="http://linkedin.com/in/caspinall"><img class="sprite sprite-linkedin"
-                                                                src="images/trans.png"/></a>
-            </div>
-        </div>
-    </div>
-
-    <hr/>
-
-    <div class="sixteen columns">
-        <h2>What we do</h2>
-
-        <p>We have over 60 years of combined experience in Software development and more recently we have refocused on
-            hardware and mobile development; in particular the emerging area of the "Internet of Things". Our
-            key skill areas are:</p>
-
-        <div class="six columns offset-by-two">
-            <ul class="square">
-                <li>Rapid Prototyping</li>
-                <li>Embedded Systems</li>
-                <li>Robotics</li>
-                <li>Industrial Control</li>
+            <ul class="small-block-grid-2 large-block-grid-5">
+                <li class="profile">
+                    <img class="profile-pic" src="images/profiles/steve.png"/>
+                    <p class="profile-name">Steve Dalton</p>
+                    <div class="profile-links">
+                        <a href="http://dalts.net"><img class="sprite sprite-blog" src="images/trans.png"/></a>
+                        <a href="http://twitter.com/spidie"><img class="sprite sprite-twitter" src="images/trans.png"/></a>
+                        <a href="http://linkedin.com/in/dalton"><img class="sprite sprite-linkedin" src="images/trans.png"/></a>
+                    </div>
+                </li>
+                <li class="profile">
+                    <img class="profile-pic" src="images/profiles/rob.png"/>
+                    <p class="profile-name">Rob Nielsen</p>
+                    <div class="profile-links">
+                        <a href="http://linkedin.com/in/robnielsenprofile"><img class="sprite sprite-linkedin" src="images/trans.png"/></a>
+                    </div>
+                </li>
+                <li class="profile">
+                    <img class="profile-pic" src="images/profiles/wes.png"/>
+                    <div class="profile-name">Wes Archbell</div>
+                    <div class="profile-links">
+                        <a href="http://linkedin.com/in/wesleyarchbell"><img class="sprite sprite-linkedin" src="images/trans.png"/></a>
+                    </div>
+                </li>
+                <li class="profile">
+                    <img class="profile-pic" src="images/profiles/rod.png"/>
+                    <div class="profile-name">Rod Christian</div>
+                </li>
+                <li class="profile">
+                    <img class="profile-pic" src="images/profiles/craig.png"/>
+                    <div class="profile-name">Craig Aspinall</div>
+                    <div class="profile-links">
+                        <a href="http://linkedin.com/in/caspinall"><img class="sprite sprite-linkedin" src="images/trans.png"/></a>
+                    </div>
+                </li>
             </ul>
-        </div>
-        <div class="six columns">
-            <ul class="square">
-                <li>Data Networks</li>
-                <li>Mobile App Development</li>
-                <li>3D Printing/Additive Manufacturing</li>
-                <li>Agile/Lean</li>
+        </article>
+    </section>
+    <hr/>
+    <section class="row">
+        <article class="small-12 columns">
+            <h2>What we do</h2>
+
+            <p>
+                We have over 60 years of combined experience in Software development and more recently we have refocused on hardware and mobile development; in particular the emerging area of the "Internet of Things". Our key skill areas are:
+            </p>
+
+            <div class="small-6 columns">
+                <div class="row">
+                    <ul class="square small-10 small-centered columns">
+                        <li>Rapid Prototyping</li>
+                        <li>Robotics</li>
+                        <li>Industrial Control</li>
+                        <li>3D Printing/Additive Manufacturing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="small-6 columns">
+                <div class="row">
+                    <ul class="square small-10 small-centered columns">
+                        <li>Data Networks</li>
+                        <li>Mobile App Development</li>
+                        <li>Embedded Systems</li>
+                        <li>Agile/Lean</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+    <hr/>
+    <section class="row">
+        <article class="small-12 columns">
+            <h2>Our products</h2>
+
+            <p>In addition to our extremely varied portfolio of client work, here are some products of our own that we have produced:</p>
+        </article>
+        <ul class="small-block-grid-2 products centered">
+            <li><a href="http://langref.org"><img src="images/products/langref.png"/></a></li>
+            <li><a href="http://petrolmonkey.com"><img src="images/products/petrolmonkey.png"/></a></li>
+            <li><a href="http://querybucket.com"><img src="images/products/querybucket.png"/></a></li>
+            <li><a href="http://shareyourlove.com"><img src="images/products/shareyourlove.png"/></a></li>
+        </ul>
+    </section>
+    <hr/>
+    <section class="row">
+        <article class="small-12 columns">
+            <h2>We support</h2>
+
+            <p>We are proud founders and supporters of several organisation that align closely with our values.</p>
+            <ul class="small-block-grid-2 large-block-grid-4 centered">
+                <li>
+                    <a href="http://gctechspace.org"><img src="images/links/gctechspace.png"/></a>
+                </li>
+                <li>
+                    <a href="http://meetup.com/barcampqld"><img src="images/links/barcamp.png"/></a>
+                </li>
+                <li>
+                    <a href="http://osia.com.au"><img src="images/links/osia.png"/></a>
+                </li>
+                <li>
+                    <a href="http://siliconlakes.com.au"><img src="images/links/siliconlakes.png"/></a>
+                </li>
             </ul>
-        </div>
-    </div>
+        </article>
+    </section>
     <hr/>
+    <footer class="row">
+        <ul class="small-block-grid-2 large-block-grid-4 centered">
+                <li>
+                    <img class="sprite sprite-telephone" src="images/trans.png"/>
+                    <p class="contact-details contact-telephone">+61 (0)7 5668 3424</p>
+                </li>
+                <li>
+                    <img class="sprite sprite-email" src="images/trans.png"/>
+                    <p class="contact-details contact-email">contact@refactor.com.au</p>
+                </li>
+                <li>
+                    <img class="sprite sprite-mail" src="images/trans.png"/>
+                    <p class="contact-details contact-address">PO Box 802, Labrador, QLD, 4215, Australia</p>
+                </li>
+                <li>
+                    <a href="http://twitter.com/refactor">
+                        <img class="sprite sprite-twitter"src="images/trans.png"/>
+                    </a>
+                    <a href="http://www.linkedin.com/company/refactor">
+                        <img class="sprite sprite-linkedin" src="images/trans.png"/>
+                    </a>
+                </li>
+            </ul>
+    </footer>
 
-    <div class="sixteen columns">
-        <h2>Our products</h2>
+    <script>
+        document.write('<script src=' +
+        ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+        '.js><\/script>')
+    </script>
 
-        <p>In addition to our extremely varied portfolio of client work, here are some products of our own that we have produced:</p>
-    </div>
-    <div class="eight columns centered">
-        <a href="http://petrolmonkey.com"><img src="images/products/petrolmonkey.png"/></a>
-    </div>
-    <div class="eight columns centered">
-        <a href="http://langref.org"><img src="images/products/langref.png"/></a>
-    </div>
-    <div class="eight columns centered">
-        <a href="http://querybucket.com"><img src="images/products/querybucket.png"/></a>
-    </div>
-    <div class="eight columns centered">
-        <a href="http://shareyourlove.com"><img src="images/products/shareyourlove.png"/></a>
-    </div>
-    <hr/>
-
-    <div class="sixteen columns">
-        <h2>We support</h2>
-
-        <p>We are proud founders and supporters of several organisation that align closely with our values.</p>
-    </div>
-
-    <div class="four columns centered">
-        <a href="http://gctechspace.org"><img src="images/links/gctechspace.png"/></a>
-    </div>
-    <div class="four columns centered">
-        <a href="http://meetup.com/barcampqld"><img src="images/links/barcamp.png"/></a>
-    </div>
-    <div class="four columns centered"><a href="http://osia.com.au"><img src="images/links/osia.png"/></a></div>
-    <div class="four columns centered"><a href="http://siliconlakes.com.au"><img
-            src="images/links/siliconlakes.png"/></a></div>
-    <hr/>
-
-    <div class="footer">
-        <div class="four columns centered">
-            <img class="sprite sprite-telephone" src="images/trans.png"/>
-            <p class="contact-details contact-telephone">+61 (0)7 5668 3424</p>
-        </div>
-        <div class="four columns centered">
-            <img class="sprite sprite-email" src="images/trans.png"/>
-            <p class="contact-details contact-email">contact@refactor.com.au</p>
-        </div>
-        <div class="four columns centered">
-            <img class="sprite sprite-mail" src="images/trans.png"/>
-            <p class="contact-details contact-address">PO Box 802, Labrador, QLD, 4215, Australia</p>
-        </div>
-        <div class="four columns centered">
-            <a href="http://twitter.com/refactor">
-                <img class="sprite sprite-twitter"src="images/trans.png"/>
-            </a>
-            <a href="http://www.linkedin.com/company/refactor">
-                <img class="sprite sprite-linkedin" src="images/trans.png"/>
-            </a>
-        </div>
-    </div>
-</div>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 </html>
 
