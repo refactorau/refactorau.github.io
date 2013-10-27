@@ -31,6 +31,7 @@
     width: 54px;
     height: 54px;
     background: url(../images/sprites.png) 0px 0px no-repeat;
+    vertical-align: middle;
 }
 
 .sprite-twitter{background: url(../images/sprites.png) -542px -540px;}
@@ -66,4 +67,8 @@
 
 #refactor-logo {
     max-width: 100%;
+}
+
+body {
+    padding-bottom: 3em;
 }
