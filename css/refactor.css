@@ -106,3 +106,7 @@ footer i {
     font-size: 3em;
     margin-left: 0.5em;
 }
+
+a:hover * {
+    color: rgb(82, 152, 213); 
+}
