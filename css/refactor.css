@@ -83,3 +83,9 @@ h2 {
 .profile {
     text-align: center;
 }
+
+footer i {
+    color: #555;
+    font-size: 3em;
+    margin-left: 0.5em;
+}
