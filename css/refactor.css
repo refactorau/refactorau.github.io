@@ -107,6 +107,10 @@ footer i {
     margin-left: 0.5em;
 }
 
+a * {
+    color: #555;
+}
+
 a:hover * {
     color: rgb(82, 152, 213); 
 }
